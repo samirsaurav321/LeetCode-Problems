@@ -31,7 +31,7 @@ if __name__=='__main__':
 
     input =   4
 
-    print(s.longestCommonPrefix(s,input))
+    print(s.countAndSay(s,input))
     
     
     # output ---->  "1211"
