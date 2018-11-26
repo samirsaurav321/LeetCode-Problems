@@ -21,6 +21,6 @@ if __name__=='__main__':
 
     input =   ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
 
-    print(s.longestCommonPrefix(s,input))   
+    print(s.compress(s,input))   
     
     # output ---> ["a","2","b","2","c","3"]
