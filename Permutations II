@@ -1,0 +1,43 @@
+"""
+Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+Example:
+
+Input: [1,1,2]
+Output:
+[
+  [1,1,2],
+  [1,2,1],
+  [2,1,1]
+]
+"""
+
+class Solution:
+    def permuteUnique(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        
+
+        permutations= itertools.permutations(nums)
+
+        s=list(set(permutations))
+
+        list1=[]
+        for i in s:
+            list1.append(list(i))
+
+        return list1
+if __name__=='__main__':
+
+    s = Solution
+
+    nums = [1,1,2]
+    print(s.permuteUnique(s, nums))
+    
+    # output --> [
+                  [1,1,2],
+                  [1,2,1],
+                   [2,1,1]
+                   ]
