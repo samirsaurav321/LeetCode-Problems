@@ -42,7 +42,7 @@ class Solution:
 
     nums = [1,1,2]
 
-    print(s.longestCommonPrefix(s,nums))
+    print(s.permute(s,nums))
     
        # output --> [
                       [1,2,3],
